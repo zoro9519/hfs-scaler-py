@@ -1,28 +1,3 @@
-<div align="center">
-  <a href="https://github.com/citi">
-    <img src="https://github.com/citi.png" alt="Citi" width="80" height="80">
-  </a>
-
-<h3 align="center">Citi/scaler</h3>
-
-  <p align="center">
-    Efficient, lightweight, and reliable distributed computation engine.
-  </p>
-
-  <p align="center">
-    <a href="https://citi.github.io/scaler/">
-      <img src="https://img.shields.io/badge/Documentation-0f1632">
-    </a>
-    <a href="./LICENSE">
-        <img src="https://img.shields.io/github/license/citi/scaler?label=license&colorA=0f1632&colorB=255be3">
-    </a>
-    <a href="https://pypi.org/project/scaler">
-      <img alt="PyPI - Version" src="https://img.shields.io/pypi/v/scaler?colorA=0f1632&colorB=255be3">
-    </a>
-    <img src="https://api.securityscorecards.dev/projects/github.com/Citi/scaler/badge">
-  </p>
-</div>
-
 <br />
 
 **Scaler provides a simple, efficient, and reliable way to perform distributed computing** using a centralized scheduler,
@@ -57,7 +32,6 @@ of lightweight tasks while improving on load balancing, messaging, and deadlocks
 - Support for **nested tasks**, allowing tasks to submit new tasks
 - `top`-like **monitoring tools**
 - GUI monitoring tool
-
 
 ## Installation
 
@@ -110,7 +84,7 @@ $ scaler_scheduler tcp://127.0.0.1:2345
 ...
 ```
 
-Then, start a set of workers (a.k.a. a Scaler *cluster*) that connects to the previously started scheduler:
+Then, start a set of workers (a.k.a. a Scaler _cluster_) that connects to the previously started scheduler:
 
 ```bash
 $ scaler_cluster -n 4 tcp://127.0.0.1:2345
@@ -270,6 +244,7 @@ class ServiceContainer(soamapi.ServiceContainer):
     def on_destroy_service(self):
         return
 ```
+
 </details>
 
 ### Nested tasks
@@ -357,13 +332,8 @@ W|Linux|15943|a7fe8b5e+    0.0%   30.7m  0.0% 28.3m 1000    0      0 |
 - **scheduler_sent** section shows count for each type of messages scheduler sent
 - **scheduler_received** section shows count for each type of messages scheduler received
 - **function_id_to_tasks** section shows task count for each function used
-- **worker** section shows worker details, , you can use shortcuts to sort by columns, and the * in the column header shows
-which column is being used for sorting
-    - `agt_cpu/agt_rss` means cpu/memory usage of worker agent
-    - `cpu/rss` means cpu/memory usage of worker
-    - `free` means number of free task slots for this worker
-    - `sent` means how many tasks scheduler sent to the worker
-    - `queued` means how many tasks worker received and queued
+- **worker** section shows worker details, , you can use shortcuts to sort by columns, and the \* in the column header shows
+  which column is being used for sorting - `agt_cpu/agt_rss` means cpu/memory usage of worker agent - `cpu/rss` means cpu/memory usage of worker - `free` means number of free task slots for this worker - `sent` means how many tasks scheduler sent to the worker - `queued` means how many tasks worker received and queued
 
 ### From the web UI
 
