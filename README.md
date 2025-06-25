@@ -349,31 +349,3 @@ This will open a web server on port `8081`.
 
 We showcased Scaler at FOSDEM 2025. Check out the slides
 [here](<slides/Effortless Distributed Computing in Python - FOSDEM 2025.pdf>).
-
-## Contributing
-
-Your contributions are at the core of making this a true open source project. Any contributions you make are **greatly
-appreciated**.
-
-We welcome you to:
-
-- Fix typos or touch up documentation
-- Share your opinions on [existing issues](https://github.com/citi/scaler/issues)
-- Help expand and improve our library by [opening a new issue](https://github.com/citi/scaler/issues/new)
-
-Please review our [community contribution guidelines](https://github.com/Citi/.github/blob/main/CONTRIBUTING.md) and
-[functional contribution guidelines](./CONTRIBUTING.md) to get started 👍.
-
-## Code of Conduct
-
-We are committed to making open source an enjoyable and respectful experience for our community. See
-[`CODE_OF_CONDUCT`](https://github.com/Citi/.github/blob/main/CODE_OF_CONDUCT.md) for more information.
-
-## License
-
-This project is distributed under the [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0). See
-[`LICENSE`](./LICENSE) for more information.
-
-## Contact
-
-If you have a query or require support with this project, [raise an issue](https://github.com/Citi/scaler/issues).
