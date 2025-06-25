@@ -46,7 +46,7 @@ $ pip install scaler[graphblas,uvloop]
 
 ## Quick Start
 
-The official documentation is available at [citi.github.io/scaler/](https://citi.github.io/scaler/).
+The official documentation.
 
 Scaler has 3 main components:
 
@@ -377,4 +377,3 @@ This project is distributed under the [Apache-2.0 License](https://www.apache.or
 ## Contact
 
 If you have a query or require support with this project, [raise an issue](https://github.com/Citi/scaler/issues).
-Otherwise, reach out to [opensource@citi.com](mailto:opensource@citi.com).
